@@ -6,10 +6,12 @@ public class PruebaAudioVisual {
         System.out.println("Prueba Audio Visual");
 
         // Crear instancias de las subclases
-        ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[3];
+        ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[5];
         contenidos[0] = new Pelicula("A Bronx Tale", 120, "Drama", "Savoy Picture");
         contenidos[1] = new SerieDeTV("Breaking Bad", 47, "Crimen", 5);
         contenidos[2] = new Documental("Our Planet", 45, "Science", "World");
+        contenidos[3] = new Anime("Naruto", 25, "Action", "Studio Pierrot", 2002);
+        contenidos[4] = new Novelas("Cien años de soledad", 463, "Drama", "Gabriel García Márquez", 20);
         
         // Crear actores
         Actor actor1 = new Actor("Robert de Niro");
